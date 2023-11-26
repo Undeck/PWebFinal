@@ -14,7 +14,6 @@ $count = mysqli_num_rows($resultado);
  
 echo "<table border='2' >
     <tr>
-        <th>ID</th>
         <th>Nombre</th>
         <th>Usuario</th>
         <th>No Cuenta Institucional</th>
@@ -28,7 +27,6 @@ echo "<table border='2' >
 if ( $count>0 ){
     //aqui se pintarian los registro de la DB
     while( $row = mysqli_fetch_assoc($resultado)  ){
-     echo "<tr>";
      echo"<td>". $row['nombre'] ."</td>";
      echo"<td>". $row['usuario'] ."</td>";
      echo"<td>". $row['no_cuenta'] ."</td>";
