@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Programacion Web 1 Final</title>
+    <title>Inicio</title>
 </head>
 <body>
 
     <table border="1">
-        <caption>PWeb 1 Final</caption>
+        <caption>Progrmacion Web 1 Proyecto Final</caption>
         <tr>
             <td><a href="inicio.php">Iniciar sesión</a></td>
         </tr>

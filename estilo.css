@@ -1,6 +1,6 @@
 button {
-    background: rgb(143, 82, 59);
-    border: 1px solid white;
+    background: rgb(152, 200, 234);
+    border: 1px solid rgb(13, 13, 13);
     padding: 5px;
     color: white;
     padding: 10px;
@@ -10,21 +10,21 @@ button {
 }
 
 button:hover {
-    background: red;
+    background-color: darksalmon;
 
 }
 
 body {
-    background: #27ae60;
+    background-color: blanchedalmond;
     text-align: center;
 }
 
 .ventana {
 
-    border: 10px solid grey;
+    border: 10px solid rgba(241, 200, 147, 0.978);
     box-shadow: 5px 5px 5px #34495e;
     text-align: center;
-    background: #95a5a6;
+    background-color: antiquewhite;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
