@@ -3,7 +3,7 @@
 $server = "localhost";
 $user = "root";
 $pass = "";
-$db = "web";
+$db = "pweb1";
 
 $conexion = new mysqli($server, $user, $pass, $db);
 if ($conexion->connect_errno) {

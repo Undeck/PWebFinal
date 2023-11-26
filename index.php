@@ -11,7 +11,7 @@
     <table border="1">
         <caption>PWeb 1 Final</caption>
         <tr>
-            <td><a href="sesion.php">Iniciar sesión</a></td>
+            <td><a href="consultar.php">Iniciar sesión</a></td>
         </tr>
         <tr>
             <td><a href="registro.php">Registrarme</a></td>

@@ -8,7 +8,7 @@
     <title>ICO</title>
 </head>
 <body>
-    <form action="" method="post">
+    <form action="consultas.php" method="post">
         <div class="ventana"> 
             <br>
             <label for="nombre">Nombre</label> <br>
@@ -36,14 +36,16 @@
 
             <br><br>
             <button>Enviar</button>
-            <button type="button" onclick="limpiarCampos()">Vaciar</button> <!-- Nuevo botón Vaciar -->
+            <button type="button" onclick="limpiarCampos()">Vaciar</button> 
             <br><br>
         </div>
     </form>
 
+    <!-- Agregamos el botón para volver a index.php -->
+    <a href="index.php" class="volver-btn">Regresar</a>
+
     <script>
         function limpiarCampos() {
-            // Obtener todos los elementos de formulario y restablecer su valor
             var elementosFormulario = document.forms[0].elements;
             for (var i = 0; i < elementosFormulario.length; i++) {
                 elementosFormulario[i].value = "";

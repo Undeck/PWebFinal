@@ -7,9 +7,9 @@ create table usuarios(id int not null auto_increment primary key,
                         no_cuenta int(10) not null,
                         email varchar(50), 
                         pass varchar(20) not null,                        
-                        numero int(10), 
+                        numero int(15), 
                         credencial int(11) not null default '2');  
-insert into usuarios (nombre, usuario, no_cuenta, email, pass, num, credencial) values('Omar Avendano', 'OmarA', '319011003', 'undeck@gmail.com', 'Omar1234', '5540376746', '2');                                            
-insert into usuarios (nombre, usuario, no_cuenta, email, pass, num, credencial) values('Admin', 'Admin', '1234567890', 'Admin@gmail.com', 'Admin', '1234567890', '1');
+insert into usuarios (nombre, usuario, no_cuenta, email, pass, numero, credencial) values('Omar Avendano', 'OmarA', '319011003', 'undeck@gmail.com', 'Omar1234', '5540376746', '2');                                            
+insert into usuarios (nombre, usuario, no_cuenta, email, pass, numero, credencial) values('Admin', 'Admin', '1234567890', 'Admin@gmail.com', 'Admin', '1234567890', '1');
 
 select * from usuarios;
