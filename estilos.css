@@ -1,0 +1,26 @@
+body{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+button:hover {
+    background-color: darksalmon;
+}
+
+.ventana {
+    background-color: antiquewhite;
+    text-align: center;
+    border: 5px solid rgba(241, 200, 147, 0.978);
+    box-shadow: 5px 5px 5px rgb(111, 111, 111);
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.tamaño{
+    padding: 10px;
+    text-align: center;
+}
