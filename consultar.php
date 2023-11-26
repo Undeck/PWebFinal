@@ -50,6 +50,6 @@ if ( $count>0 ){
     echo"<h1 style='color:red' >Sin Ningun registro</h1>";
     }
 
-    echo "<h1><a href='EliminarUsuario.php'>ElimnarUsuario</a></h1>";
+    echo "<h1><a href='EliminarU.php'>EliminarUsuario</a></h1>";
 
 ?>
