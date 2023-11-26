@@ -17,7 +17,7 @@
 
     </form>
     
-    <h1><a href="index.php">Inicio de listas</a></h1>
+    <h1><a href="consultar.php">Inicio de listas</a></h1>
 
 </body>
 
