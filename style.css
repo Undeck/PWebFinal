@@ -1,0 +1,22 @@
+body {
+    background-color: #ffe8b3; 
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 25%; 
+    margin: 50px auto 0; 
+    background-color: #a3e3b1; 
+}
+
+caption {
+    font-weight: bold; 
+    font-size: 30px; 
+    margin-bottom: 20px; 
+}
+
+td {
+    text-align: center; 
+    font-size: 20px; 
+    line-height: 3; 
+}
