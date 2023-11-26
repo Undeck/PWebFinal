@@ -8,7 +8,7 @@
     <title>ICO</title>
 </head>
 <body>
-    <form action="consultas.php" method="post">
+    <form action="add.php" method="post">
         <div class="ventana"> 
             <br>
             <label for="nombre">Nombre</label> <br>
