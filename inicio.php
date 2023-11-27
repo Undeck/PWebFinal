@@ -20,8 +20,10 @@
                 <br><br>
                 <button>LOGIN</button> <br> <br>
                 <br>
+
             </div>
 </form>
-    
+<br><br>
+<a href="index.php"><button class="back-button">Volver a Inicio</button></a>
 </body>
 </html>
